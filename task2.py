@@ -15,3 +15,12 @@ outputs:
 Access granted
 Access denied
 """
+username=input("Enter the username")
+username=str(username)
+
+if usernmae=="admin":
+    password=input("Enter the password")
+    if password=="12345":
+        print("Access granted")
+    else:
+        counter=counter+1
