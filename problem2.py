@@ -16,8 +16,10 @@ Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
 
-number=input("Enter a number")
-x=int(number)
+number = ""
 
-for x in range(4,49,4,):
-    print(x)
+count=0
+
+while count <= 12:
+    print(number,end=""+" ")
+    x=int(number)*(count+1)
