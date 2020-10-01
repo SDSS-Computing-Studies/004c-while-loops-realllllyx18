@@ -30,5 +30,5 @@ while username != "admin" or password != "12345":
         print("Access denied")
     if count == 3:
         break
-    if username == "admin" and password == "12345":
+    elif username == "admin" and password == "12345":
         print("Access granted")
