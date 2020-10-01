@@ -18,7 +18,7 @@ That is an even integer
 number=float(input("Enter a number"))
 
 while number%2!=0:
-    print("This is not an even integer")
+    print("That is not an even integer")
     number = float(input("Enter a number"))
 if number%2==0:
         print("That is an even integer")
