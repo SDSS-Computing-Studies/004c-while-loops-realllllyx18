@@ -15,10 +15,10 @@ Enter number:4
 That is an even integer
 """
 
-number=input("Enter a number")
-x=float(number)
+number=float(input("Enter a number"))
 
-if x%1==0 and x%2==0:
-    print("That is an even integer")
-else:
-    print("That is not an even integer")
+while number%2!=0:
+    print("This is not an even integer")
+    number = float(input("Enter a number"))
+if number%2==0:
+        print("That is an even integer")
